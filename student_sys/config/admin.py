@@ -3,9 +3,10 @@ from django.urls import reverse
 from django.utils.html import format_html
 
 from config.models import Link, SiderBar
+from student_sys.custom_site import custom_site
 
 
-@admin.register(Link)
+@admin.register(Link, site=custom_site)
 class LinkAdmin(admin.ModelAdmin):
     list_display = ['title', 'href', 'status', 'weight', 'created_time', 'owner', 'operator']
 
@@ -37,7 +38,7 @@ class LinkAdmin(admin.ModelAdmin):
         return super(LinkAdmin, self).save_model(request, obj, form, change)
 
 
-@admin.register(SiderBar)
+@admin.register(SiderBar, site=custom_site)
 class SiderBarAdmin(admin.ModelAdmin):
     list_display = ['title', 'display_type', 'content', 'created_time']
     fields = ('title', 'display_type', 'content')

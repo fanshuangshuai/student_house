@@ -3,9 +3,10 @@ from django.urls import reverse
 from django.utils.html import format_html
 
 from comment.models import Comment
+from student_sys.custom_site import custom_site
 
 
-@admin.register(Comment)
+@admin.register(Comment, site=custom_site)
 class CommentAdmin(admin.ModelAdmin):
     list_display = ['target', 'nickname', 'content', 'email', 'created_time', 'operator']
 

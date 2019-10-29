@@ -10,8 +10,8 @@ DATABASES = {
         'HOST': '127.0.0.1',
         'USER': 'root',
         'PASSWORD': '1234',
-        'TEST': {
-            'NAME': 'test_student_sys_db'
-        }
+        # 'TEST': {
+        #     'NAME': 'test_student_sys_db'
+        # }
     }
 }
