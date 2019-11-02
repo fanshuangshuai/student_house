@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
+# BASE_DIR='E:\\projects\\GitProjects\\student_house\\student_sys'
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -62,10 +63,30 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'student_sys.urls'
 
+# 指定主题文件的整体目录，包括模板和静态资源
+# THEME = 'default'
+THEME = 'bootstrap'
+
+# 配置部署后的静态资源路径（项目上线后才会用到）
+# STATIC_ROOT = '/tmp/static'
+
+# 配置页面上静态资源的起始路径，比如博客列表页面中的CSS资源拆分之后的地址就是/static/css/base.css
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/2.2/howto/static-files/
+STATIC_URL = '/static/'
+
+# 指定静态资源所在的目录。我们访问以上CSS文件时会在这个目录下面查找。
+# 指定主题中静态资源所在的目录
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'themes', THEME, 'static'),
+]
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        # django模板的查找目录
+        'DIRS': [os.path.join(BASE_DIR, 'themes', THEME, 'templates')],
+        # 如果在 'DIRS'查找目录中找不到模板，就在每个APP下面寻找
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -127,9 +148,3 @@ USE_I18N = True         # 语言
 USE_L10N = True         # 数据和时间格式
 
 USE_TZ = True           # 启动时区
-
-
-# Static files (CSS, JavaScript, Images)
-# https://docs.djangoproject.com/en/2.2/howto/static-files/
-
-STATIC_URL = '/static/'

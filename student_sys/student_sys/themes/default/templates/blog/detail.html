@@ -1,0 +1,17 @@
+{% extends "./base.html" %}
+{% block title %} {{ post.title }} {% endblock %}
+{% block main %}
+<!--以上代码是共有代码。基于类的视图中不需要有公共代码，只需要处理与Model相关的代码即可。-->
+    {% if post %}
+    <h1>{{ post.title }}</h1>
+    <div>
+        <span>分类：{{ post.category.name }}</span>
+        <span>作者：{{ post.owner.username }}</span>
+    </div>
+    <hr/>
+    <p>
+        {{ post.content }}
+    </p>
+    {% endif %}
+
+{% endblock %}
