@@ -12,14 +12,14 @@
 {% if post %}
 <h1>{{ post.title }}</h1>
 <div>
-    <span>分类:<a href="{% url 'category-list' post.category_id %}">{{ post.category.name }}</a></span>
-    <!--<span>分类:<a href="#">{{ post.category.name }}</a></span>-->
-    <span>作者:<a href="">{{ post.owner.username }}</a></span>
-    <span>创建时间:{{ post.created_time }}</span>
-    <span>pv/uv:{{ post.pv }}/{{ post.uv }}</span>
+    <span>分类: <a href="{% url 'category-list' post.category_id %}">{{ post.category.name }}</a></span>
+    <span>作者: <a href="{% url 'author' post.owner_id %}">{{ post.owner.username }}</a></span>
+    <span>创建时间: {{ post.created_time }}</span>
+    <span>pv/uv: {{ post.pv }} / {{ post.uv }}</span>
 </div>
 <hr/>
 <p>
+    {{  关闭Django模板的自动转码功能 }}
     {% autoescape off %}
     {{ post.content_html }}
     {% endautoescape %}

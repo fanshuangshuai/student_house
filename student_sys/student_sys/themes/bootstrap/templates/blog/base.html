@@ -3,26 +3,28 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>{% block title %}首页{% endblock %}- student博客系统</title>
+        <title>{% block title %}{% endblock %}- student博客系统</title>
         <meta name="viewport" content="width=device-width, initial-scale=1, shriknk-to-fit=no">
-        <!--<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.css">-->
-        <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+        <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.css">
+        <!--<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">-->
+        {% block extra_head %}
+        {% endblock %}
     </head>
     <body>
 
-        <div class="container head">
+        <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="/">首页</a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
                         {% for cate in navs %}
                             <li class="nav-item">
-                                <a href="{% url 'category-list' cate.id %}" class="nav-link">{{ cate.name }}</a>
+                                <a class="nav-link" href="{% url 'category-list' cate.id %}">{{ cate.name }}</a>
                             </li>
                         {% endfor %}
                     </ul>
-                    <form class="form-inline my-2 my-lg-0" action="/search" method="get">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <form class="form-inline my-2 my-lg-0" action="/search/" method="get">
+                        <input class="form-control mr-sm-2" type="search" name="keyword" placeholder="Search" aria-label="Search" value="{{ keyword }}">
                         <button class="btn btn-outline-success" type="submit">搜索</button>
                     </form>
                 </div>

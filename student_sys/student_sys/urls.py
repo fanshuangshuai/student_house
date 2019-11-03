@@ -13,11 +13,16 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf import settings
 from django.conf.urls import url
 from django.contrib import admin
+from django.contrib.sitemaps import views as sitemap_views
 from django.urls import path, include, re_path
 
-from blog.views import post_list, PostDetailView, post_detail, PostListView, IndexView, CategoryView, TagView
+from blog.rss import LatestPostFeed
+from blog.sitemap import PostSitemap
+from blog.views import PostDetailView, post_detail, PostListView, IndexView, CategoryView, TagView, \
+    SearchView, AuthorView, LinkListView, CommentView
 from config.views import links
 from .custom_site import custom_site
 
@@ -45,6 +50,18 @@ urlpatterns = [
     url(r'^post/(?P<post_id>\d+).html$', PostDetailView.as_view(), name='post-detail'),
 
     # https://127.0.0.1:8000/links/
-    url(r'^links/$', links, name='links'),
+    url(r'^links/$', LinkListView.as_view(), name='links'),
 
+    url(r'^search/$', SearchView.as_view(), name='search'),
+
+    url(r'^author/(?P<owner_id>\d+)/$', AuthorView.as_view(), name='author'),
+
+    url(r'^comment/$', CommentView.as_view(), name='comment'),
+
+    url(r'^rss|feed/', LatestPostFeed(), name='rss'),
+    url(r'^sitemap\.xml$', sitemap_views.sitemap, {'sitemaps': {'posts': PostSitemap}}),
 ]
+
+if settings.DEBUG:
+    import debug_toolbar
+    urlpatterns = [path('__debug__/', include(debug_toolbar.urls)),] + urlpatterns

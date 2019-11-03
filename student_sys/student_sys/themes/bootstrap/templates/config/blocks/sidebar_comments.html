@@ -8,7 +8,13 @@
 <ul>
     {% for comment in comments %}
     <li>
-        <a href="/post/{{ comment.target_id }}.html">{{ comment.target.title }}</a>{{ comment.nickname }} : {{ comment.content }}
+        <!--<a href="/post/{{ comment.target_id }}.html"> {{ comment.target.title }}</a>    {{ comment.nickname }} : {{ comment.content }}-->
+        <a href="{{ comment.target }}">{{ comment.target.title }}</a> |
+        {{ comment.nickname }} :
+        {{  关闭Django模板的自动转码功能 }}
+        {% autoescape off %}
+        {{ comment.content }}
+        {% endautoescape %}
     </li>
     {% endfor %}
 </ul>

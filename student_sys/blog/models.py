@@ -1,5 +1,7 @@
+import mistune
 from django.contrib.auth.models import User
 from django.db import models
+from django.utils.functional import cached_property
 
 
 class Category(models.Model):
@@ -27,8 +29,6 @@ class Category(models.Model):
     def get_navs(cls):
         """
         获取所有分类，并且区分分类是否为导航
-        :param cls:
-        :return:
         """
         categories = cls.objects.filter(status=cls.STATUS_NORMAL)
         nav_categories = []
@@ -77,6 +77,7 @@ class Post(models.Model):
     title = models.CharField(max_length=255, verbose_name='标题')
     desc = models.CharField(max_length=1024, blank=True, verbose_name='摘要')
     content = models.TextField(verbose_name='正文', help_text="正文必须为MarkDown格式")
+    content_html = models.TextField(verbose_name='正文html代码', blank=True, editable=False)
     status = models.PositiveIntegerField(default=STATUS_NORMAL, choices=STATUS_ITMES, verbose_name='状态')
     category = models.ForeignKey(Category, on_delete=models.CASCADE, verbose_name="分类")
     tag = models.ManyToManyField(Tag, verbose_name="标签")
@@ -92,6 +93,10 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    def save(self, *args, **kwargs):
+        self.content_html = mistune.markdown(self.content)
+        super().save(*args, **kwargs)
 
     @staticmethod
     def get_by_tag(tag_id):
@@ -126,3 +131,10 @@ class Post(models.Model):
     def hot_posts(cls):
         queryset = cls.objects.filter(status=cls.STATUS_NORMAL).order_by('-pv')
         return queryset
+
+    @cached_property
+    def tags(self):
+        """
+        把返回的数据绑到实例上，不用每次访问都去执行tags函数中的代码
+        """
+        return ','.join(self.tag.value_list('name', flat=True))

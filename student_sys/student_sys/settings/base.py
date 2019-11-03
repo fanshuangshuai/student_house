@@ -14,6 +14,8 @@ import os
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 # BASE_DIR='E:\\projects\\GitProjects\\student_house\\student_sys'
+from django.conf import settings
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
@@ -50,6 +52,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'blog.middleware.user_id.UserIDMiddleware',
     'student.middlewares.TimeItMiddleware',
     # 'student.middlewares.TimeItMiddleware2',
     'django.middleware.security.SecurityMiddleware',
@@ -148,3 +151,15 @@ USE_I18N = True         # 语言
 USE_L10N = True         # 数据和时间格式
 
 USE_TZ = True           # 启动时区
+
+# django debug toolbar
+INSTALLED_APPS.append('debug_toolbar')
+MIDDLEWARE.append('debug_toolbar.middleware.DebugToolbarMiddleware')
+DEBUG_TOOLBAR_CONFIG = {
+    # 'JQUERY_URL': '//cdn.bootcss.com/jquery/2.1.4/jquery.min.js',
+    # 或把jquery下载到本地然后取消下面这句的注释, 并把上面那句删除或注释掉
+    #'JQUERY_URL': '/static/jquery/2.1.4/jquery.min.js',
+    'SHOW_COLLAPSED': True,
+    'SHOW_TOOLBAR_CALLBACK': lambda x: False,
+}
+
