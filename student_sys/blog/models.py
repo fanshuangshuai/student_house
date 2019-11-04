@@ -86,6 +86,8 @@ class Post(models.Model):
     # 统计每篇文章的访问量
     pv = models.PositiveIntegerField(default=1)
     uv = models.PositiveIntegerField(default=1)
+    # 用来表明使用MarkDown还是富文本编辑器来完成
+    is_md = models.BooleanField(default=False, verbose_name="markdown 语法")
 
     class Meta:
         verbose_name = verbose_name_plural = '文章'
@@ -95,7 +97,13 @@ class Post(models.Model):
         return self.title
 
     def save(self, *args, **kwargs):
-        self.content_html = mistune.markdown(self.content)
+        """
+        判断使用哪个编辑器来保存数据
+        """
+        if self.is_md:
+            self.content_html = mistune.markdown(self.content)
+        else:
+            self.content_html = self.content
         super().save(*args, **kwargs)
 
     @staticmethod

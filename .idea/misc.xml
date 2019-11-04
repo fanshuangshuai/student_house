@@ -26,5 +26,5 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="env_django Python 3.6" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" project-jdk-name="env_django2.1" project-jdk-type="Python SDK" />
 </project>

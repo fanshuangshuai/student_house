@@ -13,8 +13,10 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+import xadmin
 from django.conf import settings
 from django.conf.urls import url
+from django.conf.urls.static import static
 from django.contrib import admin
 from django.contrib.sitemaps import views as sitemap_views
 from django.urls import path, include, re_path
@@ -24,12 +26,15 @@ from blog.sitemap import PostSitemap
 from blog.views import PostDetailView, post_detail, PostListView, IndexView, CategoryView, TagView, \
     SearchView, AuthorView, LinkListView, CommentView
 from config.views import links
+from student_sys.autocomplete import CategoryAutocomplete, TagAutocomplete
 from .custom_site import custom_site
 
 
 urlpatterns = [
-    path('super_admin/', admin.site.urls),
-    path('admin/', custom_site.urls),
+    # path('super_admin/', admin.site.urls),
+    # path('admin/', custom_site.urls),
+
+    path('admin/', xadmin.site.urls, name='xadmin'),
 
     path('student/', include('student.urls')),
 
@@ -60,7 +65,15 @@ urlpatterns = [
 
     url(r'^rss|feed/', LatestPostFeed(), name='rss'),
     url(r'^sitemap\.xml$', sitemap_views.sitemap, {'sitemaps': {'posts': PostSitemap}}),
-]
+
+    url(r'^category-autocomplete/$', CategoryAutocomplete.as_view(), name='category-autocomplete'),
+    url(r'^tag-autocomplete/$', TagAutocomplete.as_view(), name='tag-autocomplete'),
+
+    # ckeditor_uploader.urls提供了两个接口：接收上传图片和浏览已上传图片
+    url(r'^ckeditor/', include('ckeditor_uploader.urls')),
+
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
 
 if settings.DEBUG:
     import debug_toolbar

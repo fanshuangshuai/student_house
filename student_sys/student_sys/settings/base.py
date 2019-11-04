@@ -37,12 +37,26 @@ ALLOWED_HOSTS = [
 # Application definition
 
 INSTALLED_APPS = [
+    # custom config
     'blog.apps.BlogConfig',
     'comment.apps.CommentConfig',
     'config.apps.ConfigConfig',
-
     'student.apps.StudentConfig',
 
+    # xadmin config
+    'xadmin',
+    'crispy_forms',
+    'reversion',
+
+    # django-autocomplete-light
+    'dal',
+    'dal_select2',
+
+    # django-ckeditor(Textarea) config
+    'ckeditor',
+    'ckeditor_uploader', # 上传图片配置
+
+    # system config
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -52,9 +66,12 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    # custom config
     'blog.middleware.user_id.UserIDMiddleware',
     'student.middlewares.TimeItMiddleware',
     # 'student.middlewares.TimeItMiddleware2',
+
+    # system config
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -163,3 +180,22 @@ DEBUG_TOOLBAR_CONFIG = {
     'SHOW_TOOLBAR_CALLBACK': lambda x: False,
 }
 
+XADMIN_TITLE = 'Student管理后台'
+XADMIN_FOOTER_TITLE = 'power by Fnanshan'
+
+# ckeditor config
+CKEDITOR_CONFIGS = {
+    'default': {
+        'toolbar': 'full',
+        'height': 300,
+        'width': 800,
+        'tabSpaces': 4,
+        'extraPlugins': 'codesnippet',  # 配置代码插件
+    },
+}
+# ckeditor upload images config
+MEDIA_URL = "/media/"
+MEDIA_ROOT = os.path.join(BASE_DIR, "media")
+CKEDITOR_UPLOAD_PATH = "article_images"
+# ckeditor image watermark config
+DEFAULT_FILE_STORAGE = 'student_sys.storage.WatermarkStorage'
