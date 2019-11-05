@@ -20,7 +20,11 @@ from django.conf.urls.static import static
 from django.contrib import admin
 from django.contrib.sitemaps import views as sitemap_views
 from django.urls import path, include, re_path
+from rest_framework.documentation import include_docs_urls
+from rest_framework.routers import DefaultRouter
 
+from DRF_quickstart.views import UserViewSet, GroupViewSet
+from blog.apis import PostViewSet, CategoryViewSet
 from blog.rss import LatestPostFeed
 from blog.sitemap import PostSitemap
 from blog.views import PostDetailView, post_detail, PostListView, IndexView, CategoryView, TagView, \
@@ -29,6 +33,9 @@ from config.views import links
 from student_sys.autocomplete import CategoryAutocomplete, TagAutocomplete
 from .custom_site import custom_site
 
+router = DefaultRouter()
+router.register(r'post', PostViewSet, base_name='api-post')
+router.register(r'category', CategoryViewSet, base_name='api-category')
 
 urlpatterns = [
     # path('super_admin/', admin.site.urls),
@@ -71,6 +78,11 @@ urlpatterns = [
 
     # ckeditor_uploader.urls提供了两个接口：接收上传图片和浏览已上传图片
     url(r'^ckeditor/', include('ckeditor_uploader.urls')),
+
+    # django-rest-framework
+    url(r'^api/', include((router.urls, 'api'))),
+    url(r'^api_auth/', include('rest_framework.urls', namespace='rest_framework')),
+    url(r'^api/docs/', include_docs_urls(title='student_sys apis')),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 

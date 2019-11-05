@@ -110,7 +110,7 @@ class PostAdmin(BaseOwnerAdmin):
     # 过滤器，允许人们以 category 字段来过滤列表
     # list_filter = ['category', ]
     # list_filter = [CategoryOwnerFilter, ]
-    list_filter = ['category']      # 注意这里不是定义的filter类，而是字段名
+    list_filter = ['category', ]      # 注意这里不是定义的filter类，而是字段名
 
     # 搜索框，搜索 …… 字段
     search_fields = ['title', 'category__name']
@@ -121,7 +121,7 @@ class PostAdmin(BaseOwnerAdmin):
     actions_on_bottom = True
 
     # 编辑页面
-    # save_on_top = True
+    save_on_top = True
 
     # # admin页面（操作页面）要显示的字段
     """
@@ -168,6 +168,9 @@ class PostAdmin(BaseOwnerAdmin):
         Fieldset(
             '内容信息',
             'desc',
+            'is_md',
+            'content_ck',
+            'content_md',
             'content',
         )
     )
@@ -181,7 +184,7 @@ class PostAdmin(BaseOwnerAdmin):
             '<a href="{}">编辑</a>',
             # reverse('admin:blog_post_change', args=(obj.id, ))
             # reverse('cus_admin:blog_post_change', args=(obj.id, ))
-            reverse('sadmin:blog_post_change', args=(obj.id, ))
+            reverse('xadmin:blog_post_change', args=(obj.id, ))
         )
     # 指定表头的展示文案
     operator.short_description = '操作'

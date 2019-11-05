@@ -56,6 +56,9 @@ INSTALLED_APPS = [
     'ckeditor',
     'ckeditor_uploader', # 上传图片配置
 
+    # django-rest-framework
+    'rest_framework',
+    
     # system config
     'django.contrib.admin',
     'django.contrib.auth',
@@ -199,3 +202,17 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 CKEDITOR_UPLOAD_PATH = "article_images"
 # ckeditor image watermark config
 DEFAULT_FILE_STORAGE = 'student_sys.storage.WatermarkStorage'
+
+# django-rest-framework
+REST_FRAMEWORK = {
+    # Use Django's standard `django.contrib.auth` permissions,
+    # or allow read-only access for unauthenticated users.
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.DjangoModelPermissionsOrAnonReadOnly'
+    ],
+    'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.AutoSchema',
+    # rest_framework.pagination.LimitOffsetPagination or rest_framework.pagination.CursorPagination
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 10
+
+}
