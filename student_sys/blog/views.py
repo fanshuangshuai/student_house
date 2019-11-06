@@ -10,6 +10,7 @@ from blog.models import Tag, Post, Category
 from comment.forms import CommentForm
 from comment.models import Comment
 from config.models import SiderBar, Link
+from student_sys.common import time_it
 
 
 class CommonViewMixin:
@@ -186,7 +187,6 @@ class SearchView(IndexView):
             'keyword': self.request.GET.get('keyword', '')
         })
         return context
-
 
     def get_queryset(self):
         print('======run SearchView get_queryset()======')

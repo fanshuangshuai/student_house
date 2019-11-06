@@ -72,7 +72,6 @@ MIDDLEWARE = [
     # custom config
     'blog.middleware.user_id.UserIDMiddleware',
     'student.middlewares.TimeItMiddleware',
-    # 'student.middlewares.TimeItMiddleware2',
 
     # system config
     'django.middleware.security.SecurityMiddleware',
@@ -173,15 +172,37 @@ USE_L10N = True         # 数据和时间格式
 USE_TZ = True           # 启动时区
 
 # django debug toolbar
-INSTALLED_APPS.append('debug_toolbar')
+INSTALLED_APPS += [
+    'debug_toolbar',
+    # 'debug_toolbar_line_profiler',
+]
+# INSTALLED_APPS.append('pympler')
 MIDDLEWARE.append('debug_toolbar.middleware.DebugToolbarMiddleware')
+DEBUG_TOOLBAR_PANELS = [
+    'debug_toolbar.panels.versions.VersionsPanel',
+    'debug_toolbar.panels.timer.TimerPanel',
+    'debug_toolbar.panels.settings.SettingsPanel',
+    'debug_toolbar.panels.headers.HeadersPanel',
+    'debug_toolbar.panels.request.RequestPanel',
+    'debug_toolbar.panels.sql.SQLPanel',
+    'debug_toolbar.panels.staticfiles.StaticFilesPanel',
+    'debug_toolbar.panels.templates.TemplatesPanel',
+    'debug_toolbar.panels.cache.CachePanel',
+    'debug_toolbar.panels.signals.SignalsPanel',
+    'debug_toolbar.panels.logging.LoggingPanel',
+    'debug_toolbar.panels.redirects.RedirectsPanel',
+    # 'djdt_flamegraph.FlamegraphPanel',
+    # 'pympler.panels.MemoryPanel',
+    # 'debug_toolbar_line_profiler.panel.ProfilingPanel',
+]
 DEBUG_TOOLBAR_CONFIG = {
-    # 'JQUERY_URL': '//cdn.bootcss.com/jquery/2.1.4/jquery.min.js',
+    # 'JQUERY_URL': '//cdn.bootcss.com/jquery/3.1.1/jquery.min.js',
     # 或把jquery下载到本地然后取消下面这句的注释, 并把上面那句删除或注释掉
     #'JQUERY_URL': '/static/jquery/2.1.4/jquery.min.js',
     'SHOW_COLLAPSED': True,
-    'SHOW_TOOLBAR_CALLBACK': lambda x: False,
+    'SHOW_TOOLBAR_CALLBACK': lambda x: True,
 }
+
 
 XADMIN_TITLE = 'Student管理后台'
 XADMIN_FOOTER_TITLE = 'power by Fnanshan'

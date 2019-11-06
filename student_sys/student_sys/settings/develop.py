@@ -13,5 +13,9 @@ DATABASES = {
         # 'TEST': {
         #     'NAME': 'test_student_sys_db'
         # }
+        # 配置持久化连接
+        # 'CONN_MAX_AGE': 5 * 60,
+        # 配置mysqlclient连接
+        # 'OPTIONS': {'charset': 'utf8mb4'}
     }
 }
