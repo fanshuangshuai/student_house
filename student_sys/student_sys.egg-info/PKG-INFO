@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: student-sys
+Version: 0.1
+Summary: Blog System base on Django
+Home-page: 118.89.230.188
+Author: Fnanshan
+Author-email: 20185584@stu.ccut.edu.cn
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7.5
+Provides-Extra: ipython

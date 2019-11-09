@@ -2,23 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8a33df1-e50c-483d-87e3-078241a695f5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning/learn_cache.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/others/codeLearning/调优/loopT.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/others/codeLearning/调优/loop_stats_T.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/others/codeLearning/调优/timerT.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/others/codeLearning/调试/helloworld.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/others/codeLearning/调试/loggingT.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/others/codeLearning/调试/pdb_socket_test.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/student_sys/common.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/student_sys/settings/product.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/MANIFEST.in" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/DRF_quickstart/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/DRF_quickstart/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/DRF_quickstart/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/DRF_quickstart/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/DRF_quickstart/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/DRF_quickstart/serializers.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/DRF_quickstart/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/DRF_quickstart/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/adminforms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/apis.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/middleware/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/middleware/user_id.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/migrations/0002_auto_20191030_0941.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/migrations/0003_post_content_html.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/migrations/0004_post_is_md.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/rss.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/serializers.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/sitemap.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/blog/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/forms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/migrations/0002_auto_20191103_0903.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/templatetags/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/templatetags/comment_block.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/comment/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/config/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/config/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/config/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/config/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/config/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/config/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/config/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/config/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student/adminx.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student/forms.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student/middlewares.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/autocomplete.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/base_admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/common.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/custom_site.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/settings/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/settings/base.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/settings/develop.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/settings/product.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/storage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/urls2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/lib/student_sys/wsgi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/build/scripts-3.7/manage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/student_sys-0.1-py3-none-any.whl" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/student_sys-0.1.tar.gz" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/setup.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning/my_lrucache.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/others/codeLearning/fabric_Learning/test.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/others/codeLearning/调试/finish_ModuleNotFoundError.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/student_sys.egg-info/PKG-INFO" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/student_sys.egg-info/SOURCES.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/student_sys.egg-info/dependency_links.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/student_sys.egg-info/entry_points.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/student_sys.egg-info/requires.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/student_sys.egg-info/top_level.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/static/css/bootstrap_4_3_1.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/student_sys/blog/models.py" afterPath="$PROJECT_DIR$/student_sys/blog/models.py" />
-      <change beforePath="$PROJECT_DIR$/student_sys/blog/views.py" afterPath="$PROJECT_DIR$/student_sys/blog/views.py" />
-      <change beforePath="$PROJECT_DIR$/student_sys/config/models.py" afterPath="$PROJECT_DIR$/student_sys/config/models.py" />
-      <change beforePath="$PROJECT_DIR$/student_sys/student_sys/settings/base.py" afterPath="$PROJECT_DIR$/student_sys/student_sys/settings/base.py" />
-      <change beforePath="$PROJECT_DIR$/student_sys/student_sys/settings/develop.py" afterPath="$PROJECT_DIR$/student_sys/student_sys/settings/develop.py" />
+      <change beforePath="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning/learn_cache.py" afterPath="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning/learn_cache.py" />
+      <change beforePath="$PROJECT_DIR$/student_sys/others/用户权限.md" afterPath="$PROJECT_DIR$/student_sys/others/用户权限.md" />
+      <change beforePath="$PROJECT_DIR$/student_sys/student_sys/settings/product.py" afterPath="$PROJECT_DIR$/student_sys/student_sys/settings/product.py" />
+      <change beforePath="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/static/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/static/css/bootstrap-theme_3_3_7.css" />
+      <change beforePath="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/static/css/bootstrap_3_3_7.css" />
       <change beforePath="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/blog/base.html" afterPath="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/blog/base.html" />
+      <change beforePath="$PROJECT_DIR$/student_sys/student_sys/urls.py" afterPath="$PROJECT_DIR$/student_sys/student_sys/urls.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,9 +110,11 @@
     <SUITE FILE_PATH="coverage/student_house$loop_stats_T.coverage" NAME="loop_stats_T Coverage Results" MODIFIED="1573016391727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys/others/codeLearning/调优" />
     <SUITE FILE_PATH="coverage/student_house$__init__.coverage" NAME="__init__ Coverage Results" MODIFIED="1572686012610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys/student_sys/settings" />
     <SUITE FILE_PATH="coverage/student_house$manage.coverage" NAME="manage Coverage Results" MODIFIED="1571924017635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys" />
-    <SUITE FILE_PATH="coverage/student_house$learn_cache.coverage" NAME="learn_cache Coverage Results" MODIFIED="1573050268441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning" />
+    <SUITE FILE_PATH="coverage/student_house$learn_cache.coverage" NAME="learn_cache Coverage Results" MODIFIED="1573108311984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning" />
     <SUITE FILE_PATH="coverage/student_house$loggingT.coverage" NAME="loggingT Coverage Results" MODIFIED="1573001528549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys/others/codeLearning" />
     <SUITE FILE_PATH="coverage/student_house$helloworld.coverage" NAME="helloworld Coverage Results" MODIFIED="1573001913882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys/others/codeLearning" />
+    <SUITE FILE_PATH="coverage/student_house$my_lrucache.coverage" NAME="my_lrucache Coverage Results" MODIFIED="1573095373773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning" />
+    <SUITE FILE_PATH="coverage/student_house$finish_ModuleNotFoundError.coverage" NAME="finish_ModuleNotFoundError Coverage Results" MODIFIED="1573275975648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys/others/codeLearning/调试" />
     <SUITE FILE_PATH="coverage/student_house$timerT.coverage" NAME="timerT Coverage Results" MODIFIED="1573004304554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys/others/codeLearning/调优" />
     <SUITE FILE_PATH="coverage/student_house$pdb_socket_test.coverage" NAME="pdb_socket_test Coverage Results" MODIFIED="1573003794654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys/others/codeLearning" />
     <SUITE FILE_PATH="coverage/student_house$loopT.coverage" NAME="loopT Coverage Results" MODIFIED="1573014985194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/student_sys/others/codeLearning/调优" />
@@ -53,78 +133,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="loopT.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/调优/loopT.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loop_stats_T.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/调优/loop_stats_T.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student_sys/student_sys/settings/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6552">
-              <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="develop.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/student_sys/student_sys/settings/develop.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="product.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/student_sys/student_sys/settings/product.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="0">
+              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="learn_cache.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning/learn_cache.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student_sys/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+            <state relative-caret-position="5304">
+              <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
               <folding>
-                <element signature="e#15#31#0" expanded="true" />
-                <marker date="1573050340706" expanded="true" signature="1171:1194" ph="select * fro... blog_post" />
-                <marker date="1573050340706" expanded="true" signature="1264:1287" ph="select * fro... blog_post" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="builtins.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1089603277/builtins.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student_sys/config/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19734">
-              <caret line="506" column="22" lean-forward="false" selection-start-line="506" selection-start-column="22" selection-end-line="506" selection-end-column="22" />
+            <state relative-caret-position="2535">
+              <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/blog/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="503">
+              <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="setup.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/setup.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sidebar_posts.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/config/blocks/sidebar_posts.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/student_sys/student_sys/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="e#635#648#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,10 +221,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>sidebars</find>
-      <find>middle</find>
-      <find>static_url</find>
-      <find>instal</find>
       <find>reverse</find>
       <find>@admin.register</find>
       <find>vendor</find>
@@ -173,6 +247,10 @@
       <find>get_sid</find>
       <find>database</find>
       <find>debug_toolbar_line_profiler</find>
+      <find>get_context</find>
+      <find>hot_posts</find>
+      <find>passlib</find>
+      <find>internal</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -181,13 +259,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/student_sys/student_sys/templates/blog/base.html" />
-        <option value="$PROJECT_DIR$/student_sys/student_sys/templates/blog/detail.html" />
-        <option value="$PROJECT_DIR$/student_sys/student_sys/templates/blog/list.html" />
-        <option value="$PROJECT_DIR$/student_sys/student_sys/templates/blog/index.html" />
-        <option value="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/blog/demo.html" />
-        <option value="$PROJECT_DIR$/student_sys/student_sys/settings/__init__.py" />
-        <option value="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/static/css/base.css" />
         <option value="$PROJECT_DIR$/student_sys/comment/models.py" />
         <option value="$PROJECT_DIR$/student_sys/blog/admin.py" />
         <option value="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/blog/list.html" />
@@ -213,10 +284,8 @@
         <option value="D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/django/forms/models.py" />
         <option value="$PROJECT_DIR$/student_sys/DRF_quickstart/views.py" />
         <option value="$PROJECT_DIR$/student_sys/DRF_quickstart/serializers.py" />
-        <option value="$PROJECT_DIR$/student_sys/student_sys/urls.py" />
         <option value="$PROJECT_DIR$/student_sys/blog/apis.py" />
         <option value="$PROJECT_DIR$/student_sys/blog/serializers.py" />
-        <option value="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/blog/base.html" />
         <option value="$PROJECT_DIR$/student_sys/others/codeLearning/loggingT.py" />
         <option value="$PROJECT_DIR$/student_sys/others/codeLearning/helloworld.py" />
         <option value="$PROJECT_DIR$/student_sys/others/codeLearning/pdb_socket_test.py" />
@@ -225,13 +294,22 @@
         <option value="$PROJECT_DIR$/student_sys/blog/views.py" />
         <option value="$PROJECT_DIR$/student_sys/others/codeLearning/调优/loopT.py" />
         <option value="$PROJECT_DIR$/student_sys/others/codeLearning/调优/loop_stats_T.py" />
-        <option value="$PROJECT_DIR$/student_sys/blog/models.py" />
         <option value="$PROJECT_DIR$/student_sys/config/models.py" />
         <option value="$PROJECT_DIR$/student_sys/student_sys/settings/develop.py" />
         <option value="$PROJECT_DIR$/student_sys/student_sys/settings/base.py" />
-        <option value="$PROJECT_DIR$/student_sys/student_sys/settings/product.py" />
         <option value="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning/main.py" />
+        <option value="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning/my_lrucache.py" />
         <option value="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning/learn_cache.py" />
+        <option value="$PROJECT_DIR$/student_sys/student_sys/urls.py" />
+        <option value="$PROJECT_DIR$/student_sys/student_sys/settings/product.py" />
+        <option value="$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/blog/base.html" />
+        <option value="$PROJECT_DIR$/student_sys/blog/models.py" />
+        <option value="$PROJECT_DIR$/student_sys/setup.py" />
+        <option value="$PROJECT_DIR$/student_sys/others/用户权限.md" />
+        <option value="$PROJECT_DIR$/student_sys/others/codeLearning/调试/finish_ModuleNotFoundError.py" />
+        <option value="D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/pypiserver/core.py" />
+        <option value="$PROJECT_DIR$/setup.py" />
+        <option value="$PROJECT_DIR$/student_sys/others/codeLearning/fabric_Learning/test.py" />
       </list>
     </option>
   </component>
@@ -264,6 +342,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,38 +351,10 @@
               <item name="student_house" type="b2602c69:ProjectViewProjectNode" />
               <item name="student_house" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="student_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student_house" type="462c0819:PsiDirectoryNode" />
-              <item name="student_sys" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student_house" type="462c0819:PsiDirectoryNode" />
-              <item name="student_sys" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student_house" type="462c0819:PsiDirectoryNode" />
-              <item name="student_sys" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="codeLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="student_house" type="b2602c69:ProjectViewProjectNode" />
-              <item name="student_house" type="462c0819:PsiDirectoryNode" />
-              <item name="student_sys" type="462c0819:PsiDirectoryNode" />
-              <item name="others" type="462c0819:PsiDirectoryNode" />
-              <item name="codeLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="cacheLearning" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,7 +363,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="Sqlite (Xerial)&#10;MySQL" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="get_sideba&#9;null&#9;null&#10;signal.py&#9;FILE&#9;file://D:/Program Files/JetBrains/PyCharm 2017.3/helpers/typeshed/stdlib/3/signal.pyi&#10;site-packages\&#9;FILE&#9;file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages&#10;djdt_flamegraph.py&#9;FILE&#9;file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/djdt_flamegraph/djdt_flamegraph.py&#10;Sider&#9;null&#9;null&#10;Sibar&#9;null&#9;null&#10;base&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/settings/base.py&#10;latest_posts&#9;null&#9;null&#10;Post&#9;null&#9;null&#10;base.py&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/settings/base.py&#10;setting&#9;null&#9;null&#10;INSTALLED&#9;null&#9;null&#10;rest_framework&#9;FILE&#9;file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/rest_framework&#10;urls.p&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/urls.py&#10;urls&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/urls.py&#10;installed&#9;null&#9;null&#10;Seriali&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/blog/serializers.py&#10;urls.py&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/urls.py&#10;installed_apps&#9;null&#9;null&#10;adminx&#9;null&#9;null&#10;adminfor&#9;null&#9;null&#10;adminforms&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/blog/adminforms.py&#10;auto&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/autocomplete.py&#10;base.p&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/settings/base.py&#10;installed_app&#9;null&#9;null&#10;PostAdminForm&#9;null&#9;null&#10;install_apps&#9;null&#9;null&#10;PostAdmin&#9;null&#9;null&#10;admin&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/blog/adminx.py&#10;inline&#9;null&#9;null&#10;crispy_forms&#9;FILE&#9;file://D:/Program Files/anaconda3/envs/env_django/Lib/site-packages/crispy_forms&#10;base_admin&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/base_admin.py&#10;urls.&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/urls.py&#10;base.&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/settings/base.py&#10;dev&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/settings/develop.py&#10;PostDeta&#9;null&#9;null&#10;detail&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/blog/detail.html&#10;base.ht&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/blog/base.html&#10;detail.&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/blog/detail.html&#10;Models&#9;null&#9;null&#10;sidebar_co&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/config/blocks/sidebar_comments.html&#10;CommentForm&#9;null&#9;null&#10;CommentFo&#9;null&#9;null&#10;commentform&#9;null&#9;null&#10;detail.html&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/blog/detail.html&#10;content_html&#9;null&#9;null&#10;CommonViewMixin&#9;null&#9;null&#10;sidebar_posts.htm&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/default/templates/config/blocks/sidebar_posts.html&#10;navs&#9;null&#9;null&#10;template\loader.py&#9;FILE&#9;file://D:/Program Files/anaconda3/envs/env_django/Lib/site-packages/django/template/loader.py" />
+    <property name="SearchEverywhereHistoryKey" value="cache&#9;ACTION&#9;InvalidateCaches&#10;base.&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/blog/base.html&#10;deve&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/settings/develop.py&#10;sidebar_posts&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/config/blocks/sidebar_posts.html&#10;sidebar&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/config/blocks/sidebar_posts.html&#10;models&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/blog/models.py&#10;product.p&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/settings/product.py&#10;urls.p&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/urls.py&#10;blog/views.py&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/blog/views.py&#10;get_sideba&#9;null&#9;null&#10;signal.py&#9;FILE&#9;file://D:/Program Files/JetBrains/PyCharm 2017.3/helpers/typeshed/stdlib/3/signal.pyi&#10;site-packages\&#9;FILE&#9;file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages&#10;djdt_flamegraph.py&#9;FILE&#9;file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/djdt_flamegraph/djdt_flamegraph.py&#10;Sider&#9;null&#9;null&#10;Sibar&#9;null&#9;null&#10;base&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/settings/base.py&#10;latest_posts&#9;null&#9;null&#10;Post&#9;null&#9;null&#10;base.py&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/settings/base.py&#10;setting&#9;null&#9;null&#10;INSTALLED&#9;null&#9;null&#10;rest_framework&#9;FILE&#9;file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/rest_framework&#10;urls&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/urls.py&#10;installed&#9;null&#9;null&#10;Seriali&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/blog/serializers.py&#10;urls.py&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/urls.py&#10;installed_apps&#9;null&#9;null&#10;adminx&#9;null&#9;null&#10;adminfor&#9;null&#9;null&#10;adminforms&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/blog/adminforms.py&#10;auto&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/autocomplete.py&#10;base.p&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/settings/base.py&#10;installed_app&#9;null&#9;null&#10;PostAdminForm&#9;null&#9;null&#10;install_apps&#9;null&#9;null&#10;PostAdmin&#9;null&#9;null&#10;admin&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/blog/adminx.py&#10;inline&#9;null&#9;null&#10;crispy_forms&#9;FILE&#9;file://D:/Program Files/anaconda3/envs/env_django/Lib/site-packages/crispy_forms&#10;base_admin&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/base_admin.py&#10;urls.&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/urls.py&#10;dev&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/settings/develop.py&#10;PostDeta&#9;null&#9;null&#10;detail&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/blog/detail.html&#10;base.ht&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/blog/base.html&#10;detail.&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/blog/detail.html&#10;Models&#9;null&#9;null&#10;sidebar_co&#9;FILE&#9;file://E:/projects/GitProjects/student_house/student_sys/student_sys/themes/bootstrap/templates/config/blocks/sidebar_comments.html&#10;CommentForm&#9;null&#9;null&#10;CommentFo&#9;null&#9;null" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -321,6 +373,7 @@
       <recent name="E:\projects\GitProjects\student_house\student_sys\student_sys\themes\bootstrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\GitProjects\student_house" />
       <recent name="E:\projects\GitProjects\student_house\student_sys\others\codeLearning\debugLearning" />
       <recent name="E:\projects\GitProjects\student_house\student_sys\student_sys\themes\default" />
       <recent name="E:\projects\GitProjects\student_house\student_sys\student_sys\templates\config\blocks" />
@@ -339,7 +392,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.learn_cache">
+  <component name="RunManager" selected="Python.finish_ModuleNotFoundError">
+    <configuration name="finish_ModuleNotFoundError" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/student_sys/others/codeLearning/调试" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="student_house" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/student_sys/others/codeLearning/调试/finish_ModuleNotFoundError.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="learn_cache" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -397,39 +469,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="pdb_socket_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="my_lrucache" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/student_sys/others/codeLearning" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="student_house" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\projects\GitProjects\student_house\student_sys\others\codeLearning\debugLearning\pdb_socket_test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="timerT" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/student_sys/others/codeLearning/调优" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="student_house" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/student_sys/others/codeLearning/调优/timerT.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning/my_lrucache.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -521,19 +574,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.pdb_socket_test" />
-      <item index="1" class="java.lang.String" itemvalue="Python.timerT" />
-      <item index="2" class="java.lang.String" itemvalue="Python.loopT" />
-      <item index="3" class="java.lang.String" itemvalue="Python.loop_stats_T" />
-      <item index="4" class="java.lang.String" itemvalue="Python.learn_cache" />
+      <item index="0" class="java.lang.String" itemvalue="Python.loopT" />
+      <item index="1" class="java.lang.String" itemvalue="Python.loop_stats_T" />
+      <item index="2" class="java.lang.String" itemvalue="Python.learn_cache" />
+      <item index="3" class="java.lang.String" itemvalue="Python.my_lrucache" />
+      <item index="4" class="java.lang.String" itemvalue="Python.finish_ModuleNotFoundError" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.learn_cache" />
-        <item index="1" class="java.lang.String" itemvalue="Python.loop_stats_T" />
-        <item index="2" class="java.lang.String" itemvalue="Python.loopT" />
-        <item index="3" class="java.lang.String" itemvalue="Python.timerT" />
-        <item index="4" class="java.lang.String" itemvalue="Python.pdb_socket_test" />
+        <item index="0" class="java.lang.String" itemvalue="Python.finish_ModuleNotFoundError" />
+        <item index="1" class="java.lang.String" itemvalue="Python.learn_cache" />
+        <item index="2" class="java.lang.String" itemvalue="Python.my_lrucache" />
+        <item index="3" class="java.lang.String" itemvalue="Python.loop_stats_T" />
+        <item index="4" class="java.lang.String" itemvalue="Python.loopT" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +632,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572960708852</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="进入调试、优化阶段：&#10;简单学习了调试、优化手段，例如django-debug-toolbar、silk">
+      <created>1573050553749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573050553749</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -587,12 +647,13 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816228" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33293557" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47613364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31367925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5318396" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="WINDOWED" visible="false" show_stripe_button="true" weight="0.199284" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="961" y="38" width="958" height="991" />
       <window_info id="Word Book" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.60088694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40576497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -645,7 +706,8 @@
     <MESSAGE value="完成整个博客系统" />
     <MESSAGE value="使用第三方插件增强管理后台&#10;（xadmin、django-autocomplete-light自动补全、django-ckeditor富文本编辑器）" />
     <MESSAGE value="完成django-REST-framework练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成django-REST-framework练习" />
+    <MESSAGE value="进入调试、优化阶段：&#10;简单学习了调试、优化手段，例如django-debug-toolbar、silk" />
+    <option name="LAST_COMMIT_MESSAGE" value="进入调试、优化阶段：&#10;简单学习了调试、优化手段，例如django-debug-toolbar、silk" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -654,188 +716,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/blog/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/blog/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/autocomplete.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/DRF_quickstart/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/调试/helloworld.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="11" lean-forward="true" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/调试/pdb_socket_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="18" column="42" lean-forward="true" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/blog/serializers.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/blog/apis.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1053">
-          <caret line="34" column="56" lean-forward="false" selection-start-line="34" selection-start-column="56" selection-end-line="34" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/blog/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="32" column="54" lean-forward="true" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/调试/loggingT.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/comment/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/comment/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/comment/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/blog/adminforms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="49" column="11" lean-forward="false" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/blog/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/config/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/config/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/config/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/student/adminx.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/student/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/custom_site.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/base_admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/student/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-585">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/blog/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1089603277/time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="249" column="4" lean-forward="false" selection-start-line="249" selection-start-column="4" selection-end-line="249" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/student_sys/student_sys/common.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -853,20 +733,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="190" column="9" lean-forward="false" selection-start-line="190" selection-start-column="9" selection-end-line="190" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="66" column="28" lean-forward="false" selection-start-line="66" selection-start-column="28" selection-end-line="66" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/调优/timerT.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -876,9 +742,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/调优/loopT.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
+        <state relative-caret-position="0">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -907,13 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
           <caret line="1210" column="12" lean-forward="true" selection-start-line="1210" selection-start-column="12" selection-end-line="1210" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="133" column="8" lean-forward="false" selection-start-line="133" selection-start-column="8" selection-end-line="133" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -952,44 +810,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/config/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="60" column="21" lean-forward="true" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/调优/loop_stats_T.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
+        <state relative-caret-position="0">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/student_sys/student_sys/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6552">
+        <state relative-caret-position="0">
           <caret line="172" column="0" lean-forward="false" selection-start-line="172" selection-start-column="0" selection-end-line="172" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/settings/develop.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="18" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/settings/product.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="9" column="35" lean-forward="false" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1001,23 +832,278 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1089603277/builtins.py">
+    <entry file="file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/collections/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19734">
-          <caret line="506" column="22" lean-forward="false" selection-start-line="506" selection-start-column="22" selection-end-line="506" selection-end-column="22" />
+        <state relative-caret-position="225">
+          <caret line="97" column="29" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning/learn_cache.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="37" column="34" lean-forward="false" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        <state relative-caret-position="312">
+          <caret line="62" column="22" lean-forward="false" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="22" column="36" lean-forward="false" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1089603277/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="506" column="22" lean-forward="false" selection-start-line="506" selection-start-column="22" selection-end-line="506" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/cacheLearning/my_lrucache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2145">
+          <caret line="56" column="30" lean-forward="false" selection-start-line="56" selection-start-column="30" selection-end-line="56" selection-end-column="30" />
           <folding>
-            <element signature="e#15#31#0" expanded="true" />
-            <marker date="1573050340706" expanded="true" signature="1171:1194" ph="select * fro... blog_post" />
-            <marker date="1573050340706" expanded="true" signature="1264:1287" ph="select * fro... blog_post" />
+            <element signature="e#15#26#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/django/views/decorators/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/django/views/decorators/cache.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#27#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/blog/sitemap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/django/contrib/sitemaps/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/settings/product.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/config/blocks/sidebar_comments.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/static/css/bootstrap-theme_3_3_7.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="10" lean-forward="true" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/static/js/post_editor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/static/css/bootstrap_4_3_1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/static/css/bootstrap_3_3_7.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/settings/develop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="7" column="29" lean-forward="true" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/config/blocks/sidebar_posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/blog/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5304">
+          <caret line="140" column="0" lean-forward="false" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/config/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2535">
+          <caret line="67" column="22" lean-forward="false" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/themes/bootstrap/templates/blog/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="53" column="30" lean-forward="false" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/setuptools/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MANIFEST.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/others/用户权限.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="159">
+            <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/1089603277/sys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="652" column="46" lean-forward="false" selection-start-line="652" selection-start-column="46" selection-end-line="652" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/urllib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/hashlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/passlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2" column="21" lean-forward="true" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Program Files/anaconda3/envs/env_django2_1/Lib/site-packages/pypiserver/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="51" column="54" lean-forward="true" selection-start-line="51" selection-start-column="54" selection-end-line="51" selection-end-column="54" />
+          <folding>
+            <element signature="e#85#101#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/调试/finish_ModuleNotFoundError.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+          <folding>
+            <element signature="e#15#25#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/student_sys/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="e#635#648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/student_sys/others/codeLearning/fabric_Learning/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="false" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="25" lean-forward="true" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

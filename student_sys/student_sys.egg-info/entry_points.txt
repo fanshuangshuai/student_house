@@ -1,0 +1,3 @@
+[console_scripts]
+student_manage = manage:main
+
