@@ -21,7 +21,7 @@ setup(
     # include_package_data=True,    # 方法二：配合MANIFEST.in文件
     # 指明依赖版本
     install_requires=[
-        'django~=2.1.7',
+        'django>=2.1.7,<2.3.0',
     ],
     # 额外依赖
     extras_require={
