@@ -25,7 +25,7 @@ setup(
     ],
     # 额外依赖
     extras_require={
-        'ipython': ['ipython==7.9.0']
+        'ipython': ['ipython==7.16.3']
     },
 
     # 放到bin目录下的可执行文件
